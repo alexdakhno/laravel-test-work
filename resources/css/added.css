@@ -1,0 +1,16 @@
+.add-company {
+    min-width: 500px;
+}
+.edit-image {
+    max-width: 100px;
+}
+.edit-image-wrap {
+    position: relative;
+}
+.edit-image-delete:before {
+    position: absolute;
+    left: 105px;
+    top: -15px;
+    content: "x";
+    cursor: pointer;
+}
