@@ -2,13 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\EmployeeRequest;
-use App\Models\Company;
+use App\Http\Requests\Employee\EmployeeRequest;
 use App\Models\Employee;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 
 class EmployeeController extends Controller
 {

@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\EditCompanyRequest;
-use App\Http\Requests\StoreCompanyRequest;
+use App\Http\Requests\Company\EditCompanyRequest;
+use App\Http\Requests\Company\StoreCompanyRequest;
 use App\Models\Company;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
