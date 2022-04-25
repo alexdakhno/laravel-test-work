@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    @if($companies->first())
+    @if($companies->count())
         @php
             $cols = array_merge(array_keys($companies->first()->getAttributes()), ['actions']);
         @endphp
@@ -47,6 +47,7 @@
                     @endforeach
                 </tbody>
             </table>
+            {{ $companies->links() }}
         </div>
     @endif
 @endsection

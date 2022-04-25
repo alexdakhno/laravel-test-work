@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('home');
 //});
 
+
 Route::resources([
     '/company' => CompanyController::class,
     '/employee' => EmployeeController::class

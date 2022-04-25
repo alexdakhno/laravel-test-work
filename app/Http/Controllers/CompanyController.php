@@ -28,7 +28,7 @@ class CompanyController extends Controller
     public function index()
     {
         return response()->view('pages.company.list', [
-            'companies' => Company::query()->paginate()
+            'companies' => Company::query()->paginate(15)
         ]);
     }
 
